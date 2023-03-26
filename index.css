@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    background-color: purple;
+    color: #fff;
+}
+
+.header input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-card {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.product-card img{
+    width: 100%;
+}
+
+.product-card button {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+}
